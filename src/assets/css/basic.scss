@@ -1,0 +1,244 @@
+@charset "utf-8";
+body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, dt, dd, a, img, button, form, table, th, tr, td, tbody, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;   /* 根元素是10px;     16*62.5%=10  默认在pc端根元素会解析成12px    */
+}
+
+body {
+    font: 12px/1.5 'Microsoft YaHei','宋体', Tahoma, Arial, sans-serif;
+    color: #555;
+    background-color: #F7F7F7;
+}
+em, i {
+    font-style: normal;
+}
+ul,li{
+    list-style-type: none;
+}
+strong {
+    font-weight: normal;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+}
+
+
+a{
+    text-decoration:none;
+}
+/*导航*/
+
+.footer_nav{
+    
+    height: 4.4rem;
+    
+    width: 4.4rem;
+    
+    background: #000;   
+    
+    position: fixed;
+    
+    color: #fff;
+    
+    bottom: .5rem;
+    
+    left: .5rem;
+    text-align: center;
+    
+    border-radius: 50%;
+    
+    
+    img{
+        
+        width:1.8rem;
+        height:1.8rem;
+        margin-top: .4rem;
+    }
+    
+    p{
+        position: relative;
+        
+        top:-0.2rem
+    }
+    
+}
+
+/*导航弹出层*/
+
+.footer_nav_show{
+    
+    width: 100%;
+    height: 100%;    
+    position: fixed;    
+    top: 0px;
+    left: 0px;    
+    background: rgba(0, 0, 0, 0.6);    
+    z-index: 2;
+    .list{
+        
+        li{            
+            height: 4.4rem;
+
+            width: 4.4rem;
+            
+            background: #000;   
+            
+            position: absolute;
+            
+            color: #fff;
+            
+            left: .5rem;    
+                         
+            text-align: center;
+            
+            border-radius: 50%;
+            
+            img{
+                
+                width:1.8rem;
+                height:1.8rem;
+                margin-top: .4rem;
+            }
+            
+            p{
+                position: relative;
+                
+                top:-0.2rem;
+                font-size: 1rem;
+            }
+            
+            &:nth-child(1){
+                bottom: 15.4rem;
+                left: 0px;
+                
+            }
+            
+             &:nth-child(2){
+                bottom: 12.4rem;
+                left: 30%;
+                margin-left: -2.2rem;                
+            }
+            &:nth-child(3){
+                
+                bottom: 7.4rem;
+                left: 45%;
+                margin-left: -2.2rem;
+                
+                
+            }
+            
+            &:nth-child(4){
+                
+                left: 50%;
+                margin-left: -2.2rem;
+                bottom: .5rem;
+            }
+            
+            &:nth-child(5){
+                
+                left: .5rem;                
+                bottom: .5rem;
+            }
+        }
+    }
+}
+
+
+.footer_cart{
+    
+    
+    height: 4.4rem;    
+    width: 4.4rem;    
+    background: red;       
+    position: fixed;    
+    color: #fff;    
+    bottom: .5rem;    
+    right: .5rem;
+    text-align: center;    
+    border-radius: 50%;    
+   
+    img{        
+        width:1.8rem;
+        height:1.8rem;
+        margin-top: .4rem;
+    }    
+    p{
+        position: relative;        
+        top:-0.2rem
+    }
+    .num{
+        position: absolute;
+
+        display: inline-block;
+
+        width: 2rem;
+        height: 2rem;
+
+        border-radius: 50%;
+        line-height: 2rem;
+        text-align: center;
+
+        top:-.5rem;
+        right: -.5rem;
+        background: red;
+        color: #fff;
+
+    }
+    a{
+        color:#fff;
+    }
+    
+}
+
+
+//菜单
+
+
+
+
+.footer_book{
+    
+    height: 4.4rem;
+    
+    width: 4.4rem;
+    
+    background: #000;   
+    
+    position: fixed;
+    
+    color: #fff;
+    
+    bottom: .5rem;
+    
+    left: 50%;
+    
+    margin-left: -2.2rem;
+    text-align: center;
+    
+    border-radius: 50%;
+    
+    
+    img{
+        
+        width:1.8rem;
+        height:1.8rem;
+        margin-top: .4rem;
+    }
+    
+    p{
+        position: relative;
+        
+        top:-0.2rem
+    }
+    a{
+        color:#fff;
+    }
+    
+}
