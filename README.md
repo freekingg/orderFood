@@ -24,6 +24,7 @@ Vue Vuex Koa2 无人点餐系统 无人收银系统项目
 - [ ] 支付...
 
 ## preview
+已经部署到自己的乞丐云服务器
 
 
 ## ScreenShot
